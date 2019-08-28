@@ -5,14 +5,14 @@ class Author
     @name = name 
   end
   
-  def add_posts(title)
-    post.author = self 
+  def add_post(title)
+    title.author = self 
     @@post_count += 1
   end
   
   def add_post_by_title(title)
     title = Post.new(title)
-    add_posts(title)
+    add_post(title)
      @@song_counter += 1
     
   end
