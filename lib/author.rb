@@ -19,5 +19,5 @@ class Author
     @@post_counter
   end
   
-  def 
+   
 end
